@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Profile from './components/pages/Profile';
-import SignUp from './components/pages/SignUp';
+import Register from './components/pages/Register';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/profile' component={Profile}/>
-          <Route path='/sign-up' component={SignUp}/>
+          <Route path='/register' component={Register}/>
         </Switch>
       </Router>
     </>
